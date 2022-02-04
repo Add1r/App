@@ -1,0 +1,141 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/* Remode outline */
+:focus,:active{
+    outline: none;
+}
+a:focus,a:active{
+    outline: none;
+}
+
+/* Change to block */
+nav,footer,header,aside{display: block;}
+
+/* html-body style */
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* fonts for form */
+input,button,textarea{font-family: inherit;}
+
+/* Form style */
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+/* headers reset */
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+
+/* Styles */
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    max-width: 1440px;
+    background: url(../img/Ellipse_1_copy.png) 100px 150px no-repeat,
+                url(../img/Layer_0.png) 0 0 no-repeat;
+    padding: 125px 308px 108px 190px;
+    height: 1700px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #273d46;
+
+}
+.block-head{
+    text-align: center;
+}
+.block-head span{
+    margin-top: 40px;
+    display: inline-block;
+    opacity: 0.6;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+.block-head h1{
+    font-family: "Times New Roman PSMT";
+    font-size: 36px;
+    line-height: 50px;
+    margin: 0 100px;
+    margin-top: 20px;
+}
+.content{
+    margin-top: 70px;
+}
+.content .content-block-img{
+    padding: 10px;
+    background-color: white;
+}
+.content .content-block-img img{
+    width: 100%;
+}
+.content .content-block-text{
+    margin-top: 90px;
+    padding: 0 50px;
+}
+.content .content-block-text .content-block-text-first{
+    letter-spacing: 1.2px;
+    opacity: 0.8;
+    font-family: "Times New Roman PSMT";
+    font-size: 24px;
+    line-height: 40px;
+}
+.content .content-block-text .content-block-text-second{
+    margin-top: 55px;
+    font-size: 20px;
+    line-height: 36px;
+}
+.content .content-block-text .content-block-text-second-ul li{
+    background: url(../img/check_icon.png) left 10px no-repeat;
+    padding-left: 35px;
+}
+.content .content-block-text .content-block-text-second-ul .content-block-text-second-ul-normal{
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+.content .content-block-text .content-block-text-second-ul .content-block-text-second-ul-green{
+    color: #80b7b3;
+    font-style: italic;
+}
+.content .content-block-text .content-block-text-second-ul .content-block-text-second-ul-bold{
+    font-weight: bold;
+}
+.content .content-block-text .content-block-text-second-ul .content-block-text-second-ul-trough p{
+    opacity: 0.3;
+    text-decoration: line-through;
+    padding-left: 0px;
+}
+.content .content-block-text .content-block-text-button{
+    margin-top: 55px;
+    max-width: 200px;
+    max-height: 45px;
+}
+.content .content-block-text .content-block-text-button a{
+    background: url(../img/Shape_2.png) 150px center no-repeat, #80b7b3;
+    display: block;
+    border-radius: 50px;
+    padding: 17px 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
